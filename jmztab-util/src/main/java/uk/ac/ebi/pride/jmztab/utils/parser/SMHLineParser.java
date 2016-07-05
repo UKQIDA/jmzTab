@@ -195,10 +195,10 @@ public class SMHLineParser extends MZTabHeaderLineParser {
      * 1. smallmolecule_abundance_study_variable[1-n]
      * 2. smallmolecule_abundance_stdev_study_variable[1-n]
      * 3. smallmolecule_abundance_std_error_study_variable[1-n]
-     * <p/>
+     * <p>
      * Beside above, in "Complete" and "Quantification" file, following optional columns also mandatory:
      * 1. search_engine_score_ms_run[1-n]
-     * <p/>
+     * <p>
      * NOTICE: this hock method will be called at end of parse() function.
      *
      * @see MZTabHeaderLineParser#parse(int, String, MZTabErrorList)

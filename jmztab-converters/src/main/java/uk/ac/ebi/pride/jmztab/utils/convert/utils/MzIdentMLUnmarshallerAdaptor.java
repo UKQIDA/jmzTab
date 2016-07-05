@@ -17,7 +17,7 @@ import java.util.*;
  * Protein Hypothesis and PeptideDetectionHypothesis.
  *
  * methods to access mzidentML files.
- * <p/>
+ * <p>
  * @author yperez
  * @since 23/09/11 15:28
  */

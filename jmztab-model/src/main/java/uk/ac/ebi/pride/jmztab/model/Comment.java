@@ -38,7 +38,7 @@ public class Comment {
 
     /**
      * Print Comment to a String, the structure like:
-     * <br>COM  message</br>
+     * <br>COM  message
      */
     public String toString() {
         return Section.Comment.getPrefix() + TAB + msg;

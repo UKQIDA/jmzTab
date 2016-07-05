@@ -8,7 +8,7 @@ import static uk.ac.ebi.pride.jmztab.model.MZTabConstants.TAB;
 /**
  * This is a static factory class which used to generate a couple of MZTabColumn objects, and organized them "logicalPosition, MZTabColumn"
  * pair.
- * <p/>
+ * <p>
  * Currently, mzTab table including three kinds of columns:
  * <ol>
  * <li>
@@ -215,7 +215,6 @@ public class MZTabColumnFactory {
      *
      * @param column SHOULD NOT set null.
      * @param msRun  SHOULD NOT set null.
-     * @throws IllegalArgumentException: If user would like to add duplicate optional columns.
      * @see MZTabColumn#createOptionalColumn(Section, MZTabColumn, Integer, IndexedElement)
      */
     public void addOptionalColumn(MZTabColumn column, MsRun msRun) {
@@ -340,7 +339,7 @@ public class MZTabColumnFactory {
 
     /**
      * Add {@link ProteinColumn#GO_TERMS} into {@link #optionalColumnMapping} and {@link #columnMapping}.
-     * <p/>
+     * <p>
      * Notice: this function only used in {@link Section#Protein_Header}
      */
     public void addGoTermsOptionalColumn() {

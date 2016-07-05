@@ -37,7 +37,7 @@ public class AbundanceColumn extends MZTabColumn {
 
     /**
      * This is a temporary method, which face small molecule abundance column:
-     * translate small_molecule --> smallmolecule
+     * translate small_molecule --&gt; smallmolecule
      */
     public static String translate(String oldName) {
         if (oldName.equals("small_molecule")) {

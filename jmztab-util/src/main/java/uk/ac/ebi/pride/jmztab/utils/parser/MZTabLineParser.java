@@ -42,7 +42,7 @@ public class MZTabLineParser {
         this.line = line;
         this.errorList = errorList == null ? new MZTabErrorList() : errorList;
 
-        this.items = line.split("\\s*" + TAB + "\\s*");
+        this.items = line.split("\\s*" + TAB + "\\s*"); 
         items[0] = items[0].trim();
         items[items.length - 1] = items[items.length - 1].trim();
 

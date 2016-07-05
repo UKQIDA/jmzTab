@@ -10,7 +10,7 @@ import static uk.ac.ebi.pride.jmztab.model.MZTabUtils.parseParam;
 
 /**
  * A couple of common method used to parse a header line into {@link MZTabColumnFactory} structure.
- * <p/>
+ * <p>
  * NOTICE: {@link MZTabColumnFactory} maintain a couple of {@link MZTabColumn} which have internal logical
  * position and order. In physical mzTab file, we allow user not obey this logical position organized way,
  * and provide their date with own order. In order to distinguish them, we use physical position (a positive
@@ -100,7 +100,7 @@ public abstract class MZTabHeaderLineParser extends MZTabLineParser {
     /**
      * Additional columns can be added to the end of the protein table. These column headers MUST start with the prefix "opt_".
      * Column names MUST only contain the following characters: 'A'-'Z', 'a'-'z', '0'-'9', '_', '-', '[', ']', and ':'.
-     * <p/>
+     * <p>
      * the format: opt_{IndexedElement[id]}_{value}. Spaces within the parameter's name MUST be replaced by '_'.
      */
     protected boolean checkOptColumnName(String nameLabel) throws MZTabException {

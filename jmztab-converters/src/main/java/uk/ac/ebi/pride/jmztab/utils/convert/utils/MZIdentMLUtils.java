@@ -9,7 +9,7 @@ import java.util.List;
 
 /**
  * MzIdentML utilities to convert mzIdentML files to mzTab.
- *  <p/>
+ *  <p>
  * @author yperez
  * @since 13/06/2014
  */
@@ -71,7 +71,7 @@ public final class MZIdentMLUtils {
     /**
      * Search and find a list of search engine types from input parameter group.
      *
-     * @return List<SearchEngineType>  a list of search engine
+     * @return List&gt;SearchEngineType&lt;  a list of search engine
      */
     public static List<SearchEngineParam> getSearchEngineTypes(List<CvParam> cvParams) {
         if (cvParams == null) {

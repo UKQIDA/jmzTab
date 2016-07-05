@@ -24,7 +24,8 @@ import java.util.regex.Pattern;
 import static uk.ac.ebi.pride.jmztab.utils.convert.utils.MZIdentMLUtils.*;
 
 /**
- * Class that convert a mzIdentML to a mzTab file using the mzTab library. This Class extends the @ConvertProvider<File, Void>  class
+ * Class that convert a mzIdentML to a mzTab file using the mzTab library. 
+ * This Class extends the @ConvertProvider&gt;File, Void&lt;  class
  * and add new methods to handle specifications in the mzidentml files.
  *
  * @author yperez

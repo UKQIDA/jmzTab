@@ -155,7 +155,7 @@ public class PSHLineParser extends MZTabHeaderLineParser {
     /**
      * In all the modes following optional columns are mandatory:
      * 1. search_engine_score[1-n]
-     * <p/>
+     * <p>
      * NOTICE: this method will be called at end of parse() function.
      *
      * @see MZTabHeaderLineParser#parse(int, String, MZTabErrorList)

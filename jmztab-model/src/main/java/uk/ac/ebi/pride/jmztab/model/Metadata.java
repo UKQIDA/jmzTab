@@ -2226,7 +2226,7 @@ public class Metadata {
     }
 
     /**
-     *  Defines a method to access the colUnit to help in the transformation from columnName String -> to columnName MZTabColumn
+     *  Defines a method to access the colUnit to help in the transformation from columnName String -&gt; to columnName MZTabColumn
      */
     public Map<String, String> getColUnitMap() {
         return colUnitMap;

@@ -192,13 +192,13 @@ public class PEHLineParser extends MZTabHeaderLineParser {
      * 2. peptide_abundance_stdev_study_variable[1-n]
      * 3. peptide_abundance_std_error_study_variable[1-n]
      * 4. best_search_engine_score[1-n]
-     * <p/>
+     * <p>
      * Beside above, in "Complete" and "Quantification" file, following optional columns are also mandatory:
      * 1. search_engine_score[1-n]_ms_run[1-n]
      * 2. peptide_abundance_assay[1-n]
      * 3. spectra_ref             // This is special, currently all "Quantification" file's peptide line header
      * // should provide, because it is difficult to judge MS2 based quantification employed.
-     * <p/>
+     * <p>
      * NOTICE: this method will be called at end of parse() function.
      *
      * @see MZTabHeaderLineParser#parse(int, String, MZTabErrorList)

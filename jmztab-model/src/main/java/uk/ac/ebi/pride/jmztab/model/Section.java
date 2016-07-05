@@ -122,11 +122,11 @@ public enum Section {
 
     /**
      * Translate the section to corresponding header section. If can not mapping, return null.
-     * Metadata, Comment --> null
-     * Protein, Protein_Header --> ProteinHeader
-     * Peptide, Peptide_Header --> PeptideHeader
-     * PSM, PSM_Header --> PSMHeader
-     * SmallMolecule, SmallMolecule_Header --> SmallMoleculeHeader
+     * Metadata, Comment --&gt; null
+     * Protein, Protein_Header --&gt; ProteinHeader
+     * Peptide, Peptide_Header --&gt; PeptideHeader
+     * PSM, PSM_Header --&gt; PSMHeader
+     * SmallMolecule, SmallMolecule_Header --&gt; SmallMoleculeHeader
      *
      * @see #toDataSection(Section)
      */
@@ -158,11 +158,11 @@ public enum Section {
 
     /**
      * Translate the section to corresponding data section. If can not mapping, return null.
-     * Metadata, Comment --> null
-     * Protein, Protein_Header --> Protein
-     * Peptide, Peptide_Header --> Peptide
-     * PSM, PSM_Header --> PSMHeader
-     * SmallMolecule, SmallMolecule_Header --> SmallMolecule
+     * Metadata, Comment --&gt; null
+     * Protein, Protein_Header --&gt; Protein
+     * Peptide, Peptide_Header --&gt; Peptide
+     * PSM, PSM_Header --&gt; PSMHeader
+     * SmallMolecule, SmallMolecule_Header --&gt; SmallMolecule
      *
      * @see #toHeaderSection(Section)
      */

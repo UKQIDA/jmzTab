@@ -25,7 +25,7 @@ import static uk.ac.ebi.pride.jmztab.model.MZTabUtils.isEmpty;
 
 /**
  * Convert PRIDE XML v2.1 file to mzTab.
- * <p/>
+ * <p>
  * @author qingwei
  * @author ntoro
  * @since 07/06/13
